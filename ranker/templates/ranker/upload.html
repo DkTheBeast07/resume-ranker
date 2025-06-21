@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head><title>Upload Files</title></head>
+<body>
+  <h1>Upload Resume & JD</h1>
+  {% if message %}
+    <p style="color: green;">{{ message }}</p>
+  {% endif %}
+
+  {% if match_score %}
+  <h2 style="color:blue;">Match Score: {{ match_score }}%</h2>
+  {% if match_score >= 80 %}
+    <p style="color:green;">Excellent match! This resume is well-aligned with the job.</p>
+  {% elif match_score >= 60 %}
+    <p style="color:orange;">Moderate match. Consider improving the resume for a better fit.</p>
+  {% else %}
+    <p style="color:red;">Low match. Resume and JD are quite different.</p>
+  {% endif %}
+{% endif %}
+
+{% if matched_skills %}
+  <h3>Matched Skills ({{ matched_count }})</h3>
+  <ul>
+    {% for skill in matched_skills %}
+      <li style="color:green;">{{ skill }}</li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+
+{% if report_url %}
+  <p>
+    <a href="{{ report_url }}" target="_blank" style="color: green; font-weight: bold;">
+      📄 Download Match Report (PDF)
+    </a>
+  </p>
+{% endif %}
+
+
+  <form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Upload</button>
+  </form>
+
+  {% if resume_text %}
+    <h2>Resume Text:</h2>
+    <pre>{{ resume_text }}</pre>
+  {% endif %}
+
+  {% if jd_text %}
+    <h2>Job Description Text:</h2>
+    <pre>{{ jd_text }}</pre>
+  {% endif %}
+</body>
+</html>

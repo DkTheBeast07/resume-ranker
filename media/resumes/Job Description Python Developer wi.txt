@@ -1,0 +1,42 @@
+Job Description: Python Developer with Networking, Linux, Django & AWS Cloud Skills
+Job Title: Python Developer & Cloud-Networking Enthusiast
+Location: [Specify location or mention remote work]
+Job Type: Full-time / Part-time / Freelance
+Overview:
+We are seeking a Python Developer with a strong desire to expand their expertise into networking (CCNA), Linux administration, Django web development, and AWS cloud computing. This is an excellent opportunity for a tech-savvy professional who enjoys writing efficient code, building scalable web applications, and configuring network/cloud environments.
+Key Responsibilities:
+- Develop, optimize, and maintain Python-based applications.
+- Work with Django to build and deploy web applications.
+- Gain hands-on experience with CCNA networking concepts such as routing, switching, and IP addressing.
+- Manage Linux environments, including shell scripting, server administration, and system automation.
+- Integrate AWS cloud services (EC2, S3, Lambda, IAM) into applications.
+- Collaborate with DevOps teams to ensure scalable deployments.
+- Debug and troubleshoot performance issues in web and network systems.
+Required Skills:
+- Strong Python programming skills.
+- Familiarity with Django framework for web development.
+- Basic understanding of CCNA networking (IP configurations, subnetting, VLANs, firewalls).
+- Proficiency in Linux commands, file management, and process automation.
+- Experience or willingness to learn AWS services for cloud computing.
+- Gain hands-on experience with CCNA networking concepts such as routing, switching, and IP addressing.
+- Manage Linux environments, including shell scripting, server administration, and system automation.
+- Integrate AWS cloud services (EC2, S3, Lambda, IAM) into applications.
+- Collaborate with DevOps teams to ensure scalable deployments.
+- Debug and troubleshoot performance issues in web and network systems.
+Required Skills:
+- Strong Python programming skills.
+- Familiarity with Django framework for web development.
+- Basic understanding of CCNA networking (IP configurations, subnetting, VLANs, firewalls).
+- Proficiency in Linux commands, file management, and process automation.
+- Experience or willingness to learn AWS - Gain hands-on experience with CCNA networking concepts such as routing, switching, and IP addressing.
+- Manage Linux environments, including shell scripting, server administration, and system automation.
+- Integrate AWS cloud services (EC2, S3, Lambda, IAM) into applications.
+- Collaborate with DevOps teams to ensure scalable deployments.
+- Debug and troubleshoot performance issues in web and network systems.
+Required Skills:
+- Strong Python programming skills.
+- Familiarity with Django framework for web development.
+- Basic understanding of CCNA networking (IP configurations, subnetting, VLANs, firewalls).
+- Proficiency in Linux commands, file management, and process automation.
+- Experience or willingness to learn AWS services for cloud computing.
+ for cloud computing.
